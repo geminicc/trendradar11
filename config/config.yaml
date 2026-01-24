@@ -25,7 +25,7 @@ crawler:
 
 # 推送模式选择
 report:
-  mode: "daily" # 可选: "daily"|"incremental"|"current"
+  mode: " current" # 可选: "daily"|"incremental"|"current"
   rank_threshold: 5 # 排名高亮阈值
 
 notification:
@@ -56,12 +56,12 @@ notification:
   webhooks:
     feishu_url: "" # 飞书机器人的 webhook URL
     dingtalk_url: "" # 钉钉机器人的 webhook URL
-    wework_url: "" # 企业微信机器人的 webhook URL
-    telegram_bot_token: "" # Telegram Bot Token
-    telegram_chat_id: "" # Telegram Chat ID
-    email_from: "" # 发件人邮箱地址
-    email_password: "" # 发件人邮箱密码或授权码
-    email_to: "" # 收件人邮箱地址，多个收件人用逗号分隔
+    wework_url: "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=5ed18e52-3e20-4642-8db2-722b0eb4082d" # 企业微信机器人的 webhook URL
+    telegram_bot_token: "1707013271:AAGtWA9NSEOU4K-b212WFJput2AGSB1R06w" # Telegram Bot Token
+    telegram_chat_id: "562010988" # Telegram Chat ID
+    email_from: "badn8766@163.com" # 发件人邮箱地址
+    email_password: "Chen8766" # 发件人邮箱密码或授权码
+    email_to: "geminicc@gmail.com" # 收件人邮箱地址，多个收件人用逗号分隔
     email_smtp_server: "" # SMTP服务器地址（可选，留空自动识别）
     email_smtp_port: "" # SMTP端口（可选，留空自动识别）
     ntfy_server_url: "https://ntfy.sh" # ntfy服务器地址，默认使用公共服务，可改为自托管地址
